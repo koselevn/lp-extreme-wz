@@ -1,3 +1,5 @@
+/*Header*/
+
 .header {
     background-image: url(../img/image\ 3.png);
     background-repeat: no-repeat;
@@ -43,6 +45,8 @@
     color: #373737;
 }
 
+/*Main section with background*/
+
 .main-bckgrnd-div-text {
     display: flex;
     flex-direction: column;
@@ -85,11 +89,14 @@
     border-radius: 17px;
 }
 
+/*Section with trees*/
+
 .tree-section {
     background-image: url(../img/image\ 5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
     padding-bottom: 150px;
 }
 
@@ -141,3 +148,363 @@
     color: #e2e2e2;
 }
 
+/*Section with mountain*/
+
+.mntn-section {
+    background-color: #f4f4f4;
+    background-image: url(../img/Group\ 66.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 62%;
+
+
+    padding-bottom: 100px;
+
+    padding-top: 50px;
+}
+
+.mntn-part1 {
+    margin-bottom: 95px;
+}
+
+.mntn-h3 {
+    font-family: 'Impact', sans-serif;
+    font-weight: 400;
+    font-size: 80px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: #504f49;
+
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 106px;
+}
+
+.mntn-list {
+    display: flex;
+    flex-direction: column;
+    gap: 83px;
+}
+
+.mntn-list-title {
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #293b35;
+    
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.mntn-t1 {
+    max-width: 1038px;
+}
+.mntn-t2 {
+    max-width: 800px;
+}
+.mntn-t3 {
+    max-width: 680px;
+}
+.mntn-t4 {
+    max-width: 475px;
+}
+.mntn-t5 {
+    max-width: 745px;
+}
+
+.mntn-list-title:before {
+    content: '';
+    width: 30px; /* короткая линия слева */
+    height: 1px;
+    background-color: #000;
+    opacity: 0.3;
+    margin-right: 5px;
+}
+
+.mntn-list-title:after {
+    content: '';
+    flex-grow: 1; /* линия тянется вправо */
+    height: 1px;
+    background-color: #000;
+    opacity: 0.3;
+    margin-left: 5px;
+}
+
+.mntn-list-description {
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    color: #23282f;
+}
+
+.mntn-dn1 {
+    max-width: 821px;
+}
+.mntn-dn2 {
+    max-width: 686px;
+}
+.mntn-dn3 {
+    max-width: 551px;
+}
+.mntn-dn4 {
+    max-width: 575px;
+}
+.mntn-dn5 {
+    max-width: 803px;
+}
+
+/*Section with notebook and tablet*/
+
+.mntn-part2 {
+    padding-bottom: 90px;
+}
+
+.notebook-title-div {
+    margin-bottom: 110px;
+}
+
+.notebook-title {
+    font-family: 'Impact', sans-serif;
+    font-weight: 400;
+    font-size: 80px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: #504f49;
+}
+
+.notebook-sites {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 120px;
+}
+
+.notebook-site1 {
+    display: flex;
+    gap: 20px;
+}
+
+.notebook-site2 {
+    display: flex;
+    gap: 74px;
+}
+
+.notebook-site-img1 {
+    width: 806px;
+    height: 476px;
+}
+
+.notebook-site-img2 {
+    width: 751px;
+    height: 551px;
+}
+
+.notebook-site-title {
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #414c27;
+
+    margin-bottom: 20px;
+}
+
+.notebook-site-text {
+    display: flex;
+    flex-direction: column;
+
+    width: 400px;
+    height: 280px;
+}
+
+.notebook-site-dn {
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    color: #23282f;
+
+    margin-bottom: 76px;
+}
+
+.notebook-site-btn {
+    
+    border: 1px solid #414C27;
+    border-radius: 12px;
+
+    width: 281px;
+    height: 49px;
+
+    padding: 11px 52px;
+}
+
+.notebook-site-btn-span {
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    color: #414c27;
+
+    width: 178px;
+    height: 27px;
+}
+
+.notebook-site-text3 {
+    display: flex;
+    flex-direction: column;
+
+
+    height: 187px;
+
+}
+
+.notebook-site-title3 {
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #414c27;
+
+    margin-bottom: 20px;
+
+    display: flex;
+    align-items: center;
+}
+
+.nb-t3 {
+    max-width: 794px;
+}
+
+.notebook-site-title3:after {
+    content: '';
+    flex-grow: 1; /* линия тянется вправо */
+    height: 1px;
+    background-color: #000;
+    opacity: 0.3;
+    margin-left: 5px;
+}
+
+.notebook-site-dn3 {
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    color: #23282f;
+
+    margin-bottom: 76px;
+
+    width: 703px;
+}
+
+.notebook-site-img3 {
+    position: absolute;
+    top: 4475px;
+    left: 960px;
+}
+
+/*Section with our work-plan*/
+
+.work-section {
+    background-color: #343434;
+    
+    padding-top: 56px;
+    padding-bottom: 85px;
+}
+
+.work-title {
+    font-family: 'Impact', sans-serif;
+    font-weight: 400;
+    font-size: 80px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: #fff;
+
+    width: 550px;
+    height: 170px;
+
+    margin-bottom: 80px;
+}
+
+.work-list {
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+
+    gap: 126px;
+}
+
+.work-list-li {
+    display: flex;
+    align-items: center;
+
+    position: relative;
+
+    gap: 22px;
+}
+
+.work-list-li:nth-child(odd):not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 120px;
+    left: 80px;
+    width: 2px;
+    height: 140px;
+    background-color: white;
+    transform: rotate(-40deg); /* снизу-вправо */
+    transform-origin: top left;
+}
+
+.work-list-li:nth-child(even):not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 110px;
+    left: 10px;
+    width: 2px;
+    height: 140px;
+    background-color: white;
+    transform: rotate(40deg); /* снизу-влево */
+    transform-origin: top left;
+}
+
+.work-list-li:nth-child(even) {
+    transform: translateX(170px);
+}
+
+.work-list-img {
+    width: 100px;
+    height: 100px;
+}
+
+.work-list-text {
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+.work-list-title {
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.work-list-dn {
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    color: #fff;
+
+    width: 399px;
+}
