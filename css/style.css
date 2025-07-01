@@ -6,6 +6,8 @@
     background-size: cover;
     background-position: center;
     height: 945px;
+    position: relative;
+    width: 100vw;
 }
 
 .header-container {
@@ -43,6 +45,13 @@
     line-height: 100%;
     letter-spacing: 0%;
     color: #373737;
+
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.header-list-li-a:hover {
+    transform: scale(1.15);
 }
 
 /*Main section with background*/
@@ -87,6 +96,20 @@
     height: 68px;
     border: 1px solid #fff;
     border-radius: 17px;
+    transition: all .3s ease;
+}
+
+.main-bckgrnd-btn:hover {
+    background-color: #e2e2e2;
+    color: #504f49;
+}
+
+.main-bckgrnd-shadow {
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    right: 0;
+    bottom: -112px;
 }
 
 /*Section with trees*/
@@ -335,7 +358,6 @@
 }
 
 .notebook-site-btn {
-    
     border: 1px solid #414C27;
     border-radius: 12px;
 
@@ -343,6 +365,16 @@
     height: 49px;
 
     padding: 11px 52px;
+
+    transition: all 0.3s ease;
+}
+
+.notebook-site-btn:hover {
+    background-color: #414C27;
+}
+
+.notebook-site-btn:hover .notebook-site-btn-span {
+  color: #FFFFFF;
 }
 
 .notebook-site-btn-span {
@@ -556,6 +588,13 @@
     -webkit-text-stroke: 0.5px black;
 }
 
+.green-img {
+    position: absolute;
+    z-index: 999;
+    right: 0px;
+    bottom: 0px;
+}
+
 .green-list {
     display: flex;
     flex-direction: column;
@@ -748,6 +787,18 @@
 
     box-shadow: 0 1px 13px 5px rgba(75, 77, 53, 0.25);
     background: #fff;
+    padding-left: 15px;
+
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 20px;
+    color: #000;
+
+    transition: all .3s ease;
+}
+
+.form-name-input:hover {
+    transform: scale(1.02);
 }
 
 .form-number-div {
@@ -764,6 +815,18 @@
 
     box-shadow: 0 1px 13px 5px rgba(75, 77, 53, 0.25);
     background: #fff;
+    padding-left: 15px;
+
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 20px;
+    color: #000;
+
+    transition: all .3s ease;
+}
+
+.form-number-input:hover {
+    transform: scale(1.02);
 }
 
 .form-btn {
@@ -783,6 +846,12 @@
     display: block;
     margin-right: auto;
     margin-left: auto;
+    transition: all .3s ease;
+}
+
+.form-btn:hover {
+    background-color: #FFFFFF;
+    color: #4b4b4b;
 }
 
 /*Section with reviews from our clients*/
@@ -979,8 +1048,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+    transition: all .3s ease;
 }
-  
+
+.faq-btn-header:hover {
+    transform: scale(1.02);
+}
+
 .faq-btn-header::after {
     content: "⮟";
     transition: transform 0.3s ease;
@@ -1047,6 +1122,12 @@
     color: #fff;
 
     margin-right: 180px;
+
+    transition: all .3s ease;
+}
+
+.footer-contact:hover {
+    transform: scale(1.1);
 }
 
 .footer-lists-div {
@@ -1091,6 +1172,12 @@
     font-weight: 500;
     font-size: 16px;
     color: #fff;
+
+    transition: all .3s ease;
+}
+
+.footer-list-li:hover {
+    transform: scale(1.1);
 }
 
 .c-and-socials-div {
@@ -1119,4 +1206,10 @@
 .footer-social-logo {
     width: 36px;
     height: 36px;
+
+    transition: all .3s ease;
+}
+
+.footer-social-logo:hover {
+    transform: scale(1.2);
 }
